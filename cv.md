@@ -1,4 +1,5 @@
 # Dmitrii Bobyshev
+![photo Dmitrii Bobyshev](img/DmitriiBobyshev.jpg)
 
 ## Contacts
 * Phone: + 90 (534)668-94-08
