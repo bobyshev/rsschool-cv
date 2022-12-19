@@ -4,10 +4,100 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Html file</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Html cv</title>
+        <link href='style.css' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <div>Hi World!</div>
+<div class="wrapper clearfix">
+  <div class="left">
+
+    <div class="name-hero">
+        <span class="circle-image">
+            <img src="img/avatarka.jpg"/>
+           </span>
+
+      <div class="name-text">
+        <h1>Dmitrii <em> Bobyshev</em></h1>
+        <p>Phone: +90(534)668-94-08</p>
+        <p>Telegram: @djmjtrjj</p>
+        <p>Email: dmitrii.bobyshev@gmail.com</p>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="right">
+    <header class="header">
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#About me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#Code-example" class="nav-link">Code-example</a></li>
+          <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#Language" class="nav-link">Language</a></li>
+        </ul>
+      </nav>
+      </header>
+      <main class="main">
+    <div class="inner">
+      <section class="About-me" id="About me">
+        <h2>About me</h2>
+        <p>I graduated from Ivanovo State Power Engineering University named after V.I. Lenin majored in Industrial Heat Power Engineering. I have six years of experience in the field of thermal energy. After that I decided to change the field of work and decided to master the JavaScript programming language and become a 
+Front-end developer, because I am interested in web development, it gives me the opportunity for professional growth and the opportunity to work from anywhere in our planet. 
+I am ready to learn new tools and technologies to succeed in developing my career in this field.</p>
+      </section>
+      <section class="Skills" id="Skills">
+        <h2>Skills</h2>
+        <ul class="skill-set">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>VS Code</li>
+        </ul>
+      </section>
+      <section class="section" id="Code-example">
+        <h2 class="section-title">Code-example</h2>
+        <div class="code-example">
+              <code>
+                {const str1="Andrey,age:'23y 8m'";<Br>
+                const str2="John,age:'19y 10m'";<Br>
+                const str3="Maksim,age:'42y 4m'";<Br>
+                   const str4= str1.slice(12,-5);<Br>
+                   const str5= str2.slice(10,-6);<Br>
+                   const str6= str3.slice(12,-5);<Br>  
+                console.log(str4);<Br>
+                console.log(str5);<Br>
+                console.log(str6);}<Br>
+              </code>
+        </div>
+        <section class="Courses" id="Courses">
+        <h2>Courses</h2>
+        <ul class="skill-set">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+      <section class="Language" id="Language">
+        <h2>Language</h2>
+        <ul class="skill-set">
+            <li>Russian (Native)</li>
+            <li>English (A2)</li>
+        </ul>
+      </section>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022. Dmitrii Bobyshev
+    </div>
+      <a href="https://github.com/bobyshev" class="github"></a>
+      <a href="https://rs.school/js/" class="rss-logo"></a>
+    </div>
+  </footer>
+</div>
+  </div>
+
     </body>
     </html>
